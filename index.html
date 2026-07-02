@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Daily Stock Pick</title>
+<style>
+  :root { --bg:#0d1117; --card:#161b22; --border:#30363d; --text:#e6edf3;
+           --muted:#8b949e; --green:#3fb950; --red:#f85149; --accent:#4f8ef7; }
+  * { box-sizing:border-box; margin:0; }
+  body { background:var(--bg); color:var(--text); max-width:560px; margin:0 auto;
+         padding:20px 16px 48px; font:16px/1.5 -apple-system,"Segoe UI",Helvetica,Arial,sans-serif; }
+  header h1 { font-size:20px; }
+  header p { color:var(--muted); font-size:14px; margin-bottom:20px; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:14px;
+          padding:20px; margin-bottom:16px; }
+  .card.pick { border-color:var(--accent); }
+  .card.sell { border-color:var(--red); }
+  .label { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
+  .card h2 { font-size:26px; margin:6px 0 10px; }
+  .instruction { font-size:17px; }
+  .reason { color:var(--muted); }
+  .grid3 { display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px; margin-top:16px; }
+  .grid3 div { background:var(--bg); border-radius:10px; padding:10px 8px; text-align:center; }
+  .grid3 span { display:block; color:var(--muted); font-size:11px; margin-bottom:4px; }
+  .grid3 b { font-size:15px; }
+  .grid3 .up b, td.up, .stats .up b { color:var(--green); }
+  .grid3 .down b, td.down, .stats .down b { color:var(--red); }
+  .fine { color:var(--muted); font-size:12px; margin-top:12px; }
+  .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin:24px 0 8px; }
+  .stats div { background:var(--card); border:1px solid var(--border); border-radius:10px;
+               padding:12px 4px; text-align:center; }
+  .stats b { font-size:18px; display:block; }
+  .stats span { color:var(--muted); font-size:11px; }
+  h3 { font-size:14px; color:var(--muted); text-transform:uppercase; letter-spacing:.08em;
+       margin:24px 0 8px; }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th { color:var(--muted); font-weight:500; font-size:12px; text-align:left; padding:6px 8px; }
+  td { padding:8px; border-top:1px solid var(--border); }
+  td.empty { color:var(--muted); text-align:center; padding:20px; }
+  footer { color:var(--muted); font-size:12px; margin-top:32px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>&#128200; Daily Stock Pick</h1>
+  <p>Wednesday, July 1, 2026 &middot; picked by an algorithm, tracked automatically against real prices</p>
+</header>
+
+    <div class="card pick">
+      <div class="label">Today &middot; Information Technology</div>
+      <h2>BUY FFIV</h2>
+      <p class="instruction">Buy FFIV at $421.12 to $427.24 and sell it as soon as it hits $473.20 and sell it as soon as it hits $399.67.</p>
+      <div class="grid3">
+        <div><span>Buy between</span><b>$421.12&ndash;$427.24</b></div>
+        <div class="up"><span>Sell at (profit)</span><b>$473.20</b></div>
+        <div class="down"><span>Sell at (falling)</span><b>$399.67</b></div>
+      </div>
+      <p class="fine">If it opens above $427.24, skip it — the pick is void.</p>
+    </div>
+
+
+    <div class="stats">
+      <div><b>0</b><span>closed</span></div>
+      <div><b>0%</b><span>win rate</span></div>
+      <div><b>+0.0%</b><span>avg trade</span></div>
+      <div class="up"><b>$+0</b><span>per $1k/pick</span></div>
+    </div>
+<h3>Open positions (0)</h3>
+<table>
+  <tr><th>Ticker</th><th>Entry date</th><th>Fill</th><th>Target</th><th>Stop</th><th>P&amp;L</th></tr>
+  <tr><td colspan="6" class="empty">Nothing open</td></tr>
+</table>
+<h3>Closed trades</h3>
+<table>
+  <tr><th>Ticker</th><th>Entry</th><th>Fill</th><th>Exit</th><th>Why</th><th>P&amp;L</th></tr>
+  <tr><td colspan="6" class="empty">No closed trades yet</td></tr>
+</table>
+<footer>
+  Every pick is filled, stopped and targeted automatically from daily OHLC data —
+  no manual reporting. 0 pick(s) voided on gap,
+  0 day(s) with no pick.
+  Not financial advice.
+</footer>
+</body>
+</html>
