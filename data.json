@@ -1,33 +1,18 @@
 {
-  "generated": "2026-07-06",
-  "pick": {
-    "ref_price": 173.26,
-    "zone_low": 170.85,
-    "zone_high": 175.67,
-    "stop": 153.97,
-    "target": 211.83,
-    "ticker": "ANET",
-    "signal_type": "MACD_CROSS",
-    "strength": 5,
-    "sector": "Information Technology",
-    "rsi": 56.3,
-    "vol_ratio": 1.05,
-    "ret_3m": 37.2,
-    "regime": "bull",
-    "issue_date": "2026-07-06"
-  },
-  "no_pick_reason": "",
+  "generated": "2026-07-07",
+  "pick": null,
+  "no_pick_reason": "Scanned the S&P 500 \u2014 nothing set up well enough. No stock is worth spending money on today.",
   "stats": {
     "picks_total": 2,
     "closed": 0,
-    "open": 1,
+    "open": 2,
     "voided": 0,
     "wins": 0,
     "win_rate": 0.0,
     "avg_pnl_pct": 0.0,
     "total_r": 0,
     "pnl_per_1k": 0,
-    "no_pick_days": 3
+    "no_pick_days": 4
   },
   "open": [
     {
@@ -47,9 +32,30 @@
       "issue_date": "2026-07-01",
       "fill": 422.37,
       "entry_date": "2026-07-02",
-      "bars_held": 2,
-      "last_eval": "2026-07-06",
-      "last_close": 421.46
+      "bars_held": 3,
+      "last_eval": "2026-07-07",
+      "last_close": 420.26
+    },
+    {
+      "ref_price": 173.26,
+      "zone_low": 170.85,
+      "zone_high": 175.67,
+      "stop": 153.97,
+      "target": 211.83,
+      "ticker": "ANET",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "sector": "Information Technology",
+      "rsi": 56.3,
+      "vol_ratio": 1.05,
+      "ret_3m": 37.2,
+      "regime": "bull",
+      "issue_date": "2026-07-06",
+      "fill": 162.87,
+      "entry_date": "2026-07-07",
+      "bars_held": 1,
+      "last_eval": "2026-07-07",
+      "last_close": 168.35
     }
   ],
   "closed": []
