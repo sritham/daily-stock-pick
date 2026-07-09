@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08",
+  "generated": "2026-07-09",
   "pick": null,
   "no_pick_reason": "Scanned the S&P 500 \u2014 nothing set up well enough. No stock is worth spending money on today.",
   "stats": {
@@ -12,7 +12,7 @@
     "avg_pnl_pct": 0.0,
     "total_r": 0,
     "pnl_per_1k": 0,
-    "no_pick_days": 5
+    "no_pick_days": 6
   },
   "open": [
     {
@@ -32,9 +32,9 @@
       "issue_date": "2026-07-01",
       "fill": 422.37,
       "entry_date": "2026-07-02",
-      "bars_held": 3,
-      "last_eval": "2026-07-07",
-      "last_close": 420.26
+      "bars_held": 5,
+      "last_eval": "2026-07-09",
+      "last_close": 427.52
     },
     {
       "ref_price": 173.26,
@@ -53,9 +53,9 @@
       "issue_date": "2026-07-06",
       "fill": 162.87,
       "entry_date": "2026-07-07",
-      "bars_held": 1,
-      "last_eval": "2026-07-07",
-      "last_close": 168.35
+      "bars_held": 3,
+      "last_eval": "2026-07-09",
+      "last_close": 185.17
     }
   ],
   "closed": []
