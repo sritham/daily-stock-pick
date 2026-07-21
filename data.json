@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-20",
+  "generated": "2026-07-21",
   "pick": {
     "ref_price": 368.98,
     "zone_low": 366.58,
@@ -47,9 +47,9 @@
       "issue_date": "2026-07-06",
       "fill": 162.87,
       "entry_date": "2026-07-07",
-      "bars_held": 9,
-      "last_eval": "2026-07-17",
-      "last_close": 168.61
+      "bars_held": 10,
+      "last_eval": "2026-07-20",
+      "last_close": 169.35
     }
   ],
   "closed": [
