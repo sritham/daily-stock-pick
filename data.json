@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24",
+  "generated": "2026-07-27",
   "pick": null,
   "no_pick_reason": "Market regime is 'correction' (SPY below its trend). No new buys until the market is back in an uptrend.",
   "stats": {
@@ -12,7 +12,7 @@
     "avg_pnl_pct": -6.45,
     "total_r": -1.11,
     "pnl_per_1k": -64.5,
-    "no_pick_days": 11
+    "no_pick_days": 12
   },
   "open": [
     {
@@ -32,9 +32,9 @@
       "issue_date": "2026-07-06",
       "fill": 162.87,
       "entry_date": "2026-07-07",
-      "bars_held": 13,
-      "last_eval": "2026-07-23",
-      "last_close": 176.61
+      "bars_held": 14,
+      "last_eval": "2026-07-27",
+      "last_close": 174.46
     },
     {
       "ref_price": 368.98,
@@ -53,9 +53,9 @@
       "issue_date": "2026-07-20",
       "fill": 366.68,
       "entry_date": "2026-07-21",
-      "bars_held": 3,
-      "last_eval": "2026-07-23",
-      "last_close": 376.37
+      "bars_held": 4,
+      "last_eval": "2026-07-27",
+      "last_close": 388.38
     },
     {
       "ref_price": 110.6,
@@ -74,9 +74,9 @@
       "issue_date": "2026-07-22",
       "fill": 107.27,
       "entry_date": "2026-07-23",
-      "bars_held": 1,
-      "last_eval": "2026-07-23",
-      "last_close": 106.89
+      "bars_held": 2,
+      "last_eval": "2026-07-27",
+      "last_close": 106.08
     }
   ],
   "closed": [
