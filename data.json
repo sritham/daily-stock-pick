@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27",
+  "generated": "2026-07-28",
   "pick": null,
   "no_pick_reason": "Market regime is 'correction' (SPY below its trend). No new buys until the market is back in an uptrend.",
   "stats": {
@@ -12,7 +12,7 @@
     "avg_pnl_pct": -6.45,
     "total_r": -1.11,
     "pnl_per_1k": -64.5,
-    "no_pick_days": 12
+    "no_pick_days": 13
   },
   "open": [
     {
