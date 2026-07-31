@@ -1,18 +1,18 @@
 {
-  "generated": "2026-07-30",
+  "generated": "2026-07-31",
   "pick": null,
   "no_pick_reason": "Market regime is 'correction' (SPY below its trend). No new buys until the market is back in an uptrend.",
   "stats": {
     "picks_total": 5,
-    "closed": 1,
-    "open": 3,
+    "closed": 2,
+    "open": 2,
     "voided": 1,
     "wins": 0,
     "win_rate": 0.0,
-    "avg_pnl_pct": -6.45,
-    "total_r": -1.11,
-    "pnl_per_1k": -64.5,
-    "no_pick_days": 15
+    "avg_pnl_pct": -4.29,
+    "total_r": -1.54,
+    "pnl_per_1k": -85.7,
+    "no_pick_days": 16
   },
   "open": [
     {
@@ -32,9 +32,9 @@
       "issue_date": "2026-07-06",
       "fill": 162.87,
       "entry_date": "2026-07-07",
-      "bars_held": 16,
-      "last_eval": "2026-07-29",
-      "last_close": 157.97
+      "bars_held": 17,
+      "last_eval": "2026-07-30",
+      "last_close": 171.02
     },
     {
       "ref_price": 368.98,
@@ -53,30 +53,9 @@
       "issue_date": "2026-07-20",
       "fill": 366.68,
       "entry_date": "2026-07-21",
-      "bars_held": 6,
-      "last_eval": "2026-07-29",
-      "last_close": 389.01
-    },
-    {
-      "ref_price": 110.6,
-      "zone_low": 109.94,
-      "zone_high": 111.26,
-      "stop": 105.32,
-      "target": 121.17,
-      "ticker": "CVS",
-      "signal_type": "MACD_CROSS",
-      "strength": 5,
-      "sector": "Health Care",
-      "rsi": 71.7,
-      "vol_ratio": 1.11,
-      "ret_3m": 44.2,
-      "regime": "bull",
-      "issue_date": "2026-07-22",
-      "fill": 107.27,
-      "entry_date": "2026-07-23",
-      "bars_held": 4,
-      "last_eval": "2026-07-29",
-      "last_close": 105.92
+      "bars_held": 7,
+      "last_eval": "2026-07-30",
+      "last_close": 375.99
     }
   ],
   "closed": [
@@ -98,6 +77,25 @@
       "pnl_pct": -6.45,
       "r_multiple": -1.112,
       "bars_held": 10
+    },
+    {
+      "ticker": "CVS",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "issue_date": "2026-07-22",
+      "ref_price": 110.6,
+      "zone_low": 109.94,
+      "zone_high": 111.26,
+      "stop": 105.32,
+      "target": 121.17,
+      "fill": 107.27,
+      "entry_date": "2026-07-23",
+      "exit": 105.0,
+      "exit_date": "2026-07-30",
+      "exit_reason": "STOP_LOSS",
+      "pnl_pct": -2.12,
+      "r_multiple": -0.43,
+      "bars_held": 4
     }
   ]
 }
