@@ -1,9 +1,24 @@
 {
-  "generated": "2026-07-31",
-  "pick": null,
-  "no_pick_reason": "Market regime is 'correction' (SPY below its trend). No new buys until the market is back in an uptrend.",
+  "generated": "2026-08-03",
+  "pick": {
+    "ref_price": 420.04,
+    "zone_low": 415.17,
+    "zone_high": 424.91,
+    "stop": 381.04,
+    "target": 498.04,
+    "ticker": "ETN",
+    "signal_type": "MACD_CROSS",
+    "strength": 5,
+    "sector": "Industrials",
+    "rsi": 51.5,
+    "vol_ratio": 1.42,
+    "ret_3m": -0.3,
+    "regime": "bull",
+    "issue_date": "2026-08-03"
+  },
+  "no_pick_reason": "",
   "stats": {
-    "picks_total": 5,
+    "picks_total": 6,
     "closed": 2,
     "open": 2,
     "voided": 1,
@@ -32,9 +47,9 @@
       "issue_date": "2026-07-06",
       "fill": 162.87,
       "entry_date": "2026-07-07",
-      "bars_held": 17,
-      "last_eval": "2026-07-30",
-      "last_close": 171.02
+      "bars_held": 19,
+      "last_eval": "2026-08-03",
+      "last_close": 175.98
     },
     {
       "ref_price": 368.98,
@@ -53,9 +68,9 @@
       "issue_date": "2026-07-20",
       "fill": 366.68,
       "entry_date": "2026-07-21",
-      "bars_held": 7,
-      "last_eval": "2026-07-30",
-      "last_close": 375.99
+      "bars_held": 9,
+      "last_eval": "2026-08-03",
+      "last_close": 374.6
     }
   ],
   "closed": [
