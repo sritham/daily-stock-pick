@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-05",
+  "generated": "2026-08-06",
   "pick": {
     "ref_price": 168.29,
     "zone_low": 166.56,
@@ -19,38 +19,17 @@
   "no_pick_reason": "",
   "stats": {
     "picks_total": 7,
-    "closed": 2,
-    "open": 2,
+    "closed": 3,
+    "open": 1,
     "voided": 2,
-    "wins": 0,
-    "win_rate": 0.0,
-    "avg_pnl_pct": -4.29,
-    "total_r": -1.54,
-    "pnl_per_1k": -85.7,
+    "wins": 1,
+    "win_rate": 33.3,
+    "avg_pnl_pct": 7.16,
+    "total_r": 1.0,
+    "pnl_per_1k": 214.9,
     "no_pick_days": 16
   },
   "open": [
-    {
-      "ref_price": 173.26,
-      "zone_low": 170.85,
-      "zone_high": 175.67,
-      "stop": 153.97,
-      "target": 211.83,
-      "ticker": "ANET",
-      "signal_type": "MACD_CROSS",
-      "strength": 5,
-      "sector": "Information Technology",
-      "rsi": 56.3,
-      "vol_ratio": 1.05,
-      "ret_3m": 37.2,
-      "regime": "bull",
-      "issue_date": "2026-07-06",
-      "fill": 162.87,
-      "entry_date": "2026-07-07",
-      "bars_held": 20,
-      "last_eval": "2026-08-04",
-      "last_close": 190.51
-    },
     {
       "ref_price": 368.98,
       "zone_low": 366.58,
@@ -68,9 +47,9 @@
       "issue_date": "2026-07-20",
       "fill": 366.68,
       "entry_date": "2026-07-21",
-      "bars_held": 10,
-      "last_eval": "2026-08-04",
-      "last_close": 377.15
+      "bars_held": 11,
+      "last_eval": "2026-08-05",
+      "last_close": 382.45
     }
   ],
   "closed": [
@@ -111,6 +90,25 @@
       "pnl_pct": -2.12,
       "r_multiple": -0.43,
       "bars_held": 4
+    },
+    {
+      "ticker": "ANET",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "issue_date": "2026-07-06",
+      "ref_price": 173.26,
+      "zone_low": 170.85,
+      "zone_high": 175.67,
+      "stop": 153.97,
+      "target": 211.83,
+      "fill": 162.87,
+      "entry_date": "2026-07-07",
+      "exit": 211.83,
+      "exit_date": "2026-08-05",
+      "exit_reason": "PROFIT_TARGET",
+      "pnl_pct": 30.06,
+      "r_multiple": 2.538,
+      "bars_held": 20
     }
   ]
 }
