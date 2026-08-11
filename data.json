@@ -1,26 +1,26 @@
 {
-  "generated": "2026-08-10",
+  "generated": "2026-08-11",
   "pick": {
-    "ref_price": 178.56,
-    "zone_low": 177.26,
-    "zone_high": 179.86,
-    "stop": 168.12,
-    "target": 199.44,
-    "ticker": "EXPD",
+    "ref_price": 1231.94,
+    "zone_low": 1221.42,
+    "zone_high": 1242.46,
+    "stop": 1147.8,
+    "target": 1400.22,
+    "ticker": "LLY",
     "signal_type": "MACD_CROSS",
     "strength": 5,
-    "sector": "Industrials",
-    "rsi": 44.1,
-    "vol_ratio": 1.27,
-    "ret_3m": 18.2,
+    "sector": "Health Care",
+    "rsi": 59.3,
+    "vol_ratio": 1.42,
+    "ret_3m": 27.6,
     "regime": "bull",
-    "issue_date": "2026-08-07"
+    "issue_date": "2026-08-11"
   },
   "no_pick_reason": "",
   "stats": {
-    "picks_total": 8,
+    "picks_total": 9,
     "closed": 3,
-    "open": 2,
+    "open": 3,
     "voided": 2,
     "wins": 1,
     "win_rate": 33.3,
@@ -47,9 +47,9 @@
       "issue_date": "2026-07-20",
       "fill": 366.68,
       "entry_date": "2026-07-21",
-      "bars_held": 13,
-      "last_eval": "2026-08-07",
-      "last_close": 384.31
+      "bars_held": 14,
+      "last_eval": "2026-08-10",
+      "last_close": 375.62
     },
     {
       "ref_price": 168.29,
@@ -68,9 +68,30 @@
       "issue_date": "2026-08-05",
       "fill": 160.07,
       "entry_date": "2026-08-06",
-      "bars_held": 2,
-      "last_eval": "2026-08-07",
-      "last_close": 159.64
+      "bars_held": 3,
+      "last_eval": "2026-08-10",
+      "last_close": 164.21
+    },
+    {
+      "ref_price": 178.56,
+      "zone_low": 177.26,
+      "zone_high": 179.86,
+      "stop": 168.12,
+      "target": 199.44,
+      "ticker": "EXPD",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "sector": "Industrials",
+      "rsi": 44.1,
+      "vol_ratio": 1.27,
+      "ret_3m": 18.2,
+      "regime": "bull",
+      "issue_date": "2026-08-07",
+      "fill": 178.22,
+      "entry_date": "2026-08-10",
+      "bars_held": 1,
+      "last_eval": "2026-08-10",
+      "last_close": 179.0
     }
   ],
   "closed": [
