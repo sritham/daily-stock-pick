@@ -1,33 +1,18 @@
 {
-  "generated": "2026-08-14",
-  "pick": {
-    "ref_price": 348.25,
-    "zone_low": 345.14,
-    "zone_high": 351.36,
-    "stop": 323.36,
-    "target": 398.03,
-    "ticker": "MPC",
-    "signal_type": "MACD_CROSS",
-    "strength": 5,
-    "sector": "Energy",
-    "rsi": 67.1,
-    "vol_ratio": 1.23,
-    "ret_3m": 40.3,
-    "regime": "bull",
-    "issue_date": "2026-08-13"
-  },
-  "no_pick_reason": "",
+  "generated": "2026-08-17",
+  "pick": null,
+  "no_pick_reason": "Scanned the S&P 500 \u2014 nothing set up well enough. No stock is worth spending money on today.",
   "stats": {
     "picks_total": 10,
     "closed": 3,
     "open": 4,
-    "voided": 2,
+    "voided": 3,
     "wins": 1,
     "win_rate": 33.3,
     "avg_pnl_pct": 7.16,
     "total_r": 1.0,
     "pnl_per_1k": 214.9,
-    "no_pick_days": 16
+    "no_pick_days": 17
   },
   "open": [
     {
@@ -47,9 +32,9 @@
       "issue_date": "2026-07-20",
       "fill": 366.68,
       "entry_date": "2026-07-21",
-      "bars_held": 17,
-      "last_eval": "2026-08-13",
-      "last_close": 370.0
+      "bars_held": 18,
+      "last_eval": "2026-08-14",
+      "last_close": 370.36
     },
     {
       "ref_price": 168.29,
@@ -68,9 +53,9 @@
       "issue_date": "2026-08-05",
       "fill": 160.07,
       "entry_date": "2026-08-06",
-      "bars_held": 6,
-      "last_eval": "2026-08-13",
-      "last_close": 165.44
+      "bars_held": 7,
+      "last_eval": "2026-08-14",
+      "last_close": 160.01
     },
     {
       "ref_price": 178.56,
@@ -89,9 +74,9 @@
       "issue_date": "2026-08-07",
       "fill": 178.22,
       "entry_date": "2026-08-10",
-      "bars_held": 4,
-      "last_eval": "2026-08-13",
-      "last_close": 187.05
+      "bars_held": 5,
+      "last_eval": "2026-08-14",
+      "last_close": 186.12
     },
     {
       "ref_price": 1231.94,
@@ -110,9 +95,9 @@
       "issue_date": "2026-08-11",
       "fill": 1201.73,
       "entry_date": "2026-08-12",
-      "bars_held": 2,
-      "last_eval": "2026-08-13",
-      "last_close": 1209.0
+      "bars_held": 3,
+      "last_eval": "2026-08-14",
+      "last_close": 1180.16
     }
   ],
   "closed": [
