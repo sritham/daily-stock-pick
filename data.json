@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19",
+  "generated": "2026-08-20",
   "pick": {
     "ref_price": 33.49,
     "zone_low": 33.24,
@@ -19,59 +19,17 @@
   "no_pick_reason": "",
   "stats": {
     "picks_total": 11,
-    "closed": 3,
-    "open": 4,
+    "closed": 5,
+    "open": 2,
     "voided": 3,
     "wins": 1,
-    "win_rate": 33.3,
-    "avg_pnl_pct": 7.16,
-    "total_r": 1.0,
-    "pnl_per_1k": 214.9,
+    "win_rate": 20.0,
+    "avg_pnl_pct": 3.35,
+    "total_r": 0.36,
+    "pnl_per_1k": 167.4,
     "no_pick_days": 18
   },
   "open": [
-    {
-      "ref_price": 368.98,
-      "zone_low": 366.58,
-      "zone_high": 371.38,
-      "stop": 349.8,
-      "target": 407.34,
-      "ticker": "TRV",
-      "signal_type": "MACD_CROSS",
-      "strength": 5,
-      "sector": "Financials",
-      "rsi": 73.5,
-      "vol_ratio": 1.04,
-      "ret_3m": 23.2,
-      "regime": "bull",
-      "issue_date": "2026-07-20",
-      "fill": 366.68,
-      "entry_date": "2026-07-21",
-      "bars_held": 20,
-      "last_eval": "2026-08-18",
-      "last_close": 367.93
-    },
-    {
-      "ref_price": 168.29,
-      "zone_low": 166.56,
-      "zone_high": 170.02,
-      "stop": 154.42,
-      "target": 196.02,
-      "ticker": "FTNT",
-      "signal_type": "MACD_CROSS",
-      "strength": 5,
-      "sector": "Information Technology",
-      "rsi": 55.2,
-      "vol_ratio": 1.51,
-      "ret_3m": 87.2,
-      "regime": "bull",
-      "issue_date": "2026-08-05",
-      "fill": 160.07,
-      "entry_date": "2026-08-06",
-      "bars_held": 9,
-      "last_eval": "2026-08-18",
-      "last_close": 158.01
-    },
     {
       "ref_price": 178.56,
       "zone_low": 177.26,
@@ -89,9 +47,9 @@
       "issue_date": "2026-08-07",
       "fill": 178.22,
       "entry_date": "2026-08-10",
-      "bars_held": 7,
-      "last_eval": "2026-08-18",
-      "last_close": 185.95
+      "bars_held": 8,
+      "last_eval": "2026-08-19",
+      "last_close": 186.44
     },
     {
       "ref_price": 1231.94,
@@ -110,9 +68,9 @@
       "issue_date": "2026-08-11",
       "fill": 1201.73,
       "entry_date": "2026-08-12",
-      "bars_held": 5,
-      "last_eval": "2026-08-18",
-      "last_close": 1225.73
+      "bars_held": 6,
+      "last_eval": "2026-08-19",
+      "last_close": 1280.34
     }
   ],
   "closed": [
@@ -172,6 +130,44 @@
       "pnl_pct": 30.06,
       "r_multiple": 2.538,
       "bars_held": 20
+    },
+    {
+      "ticker": "TRV",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "issue_date": "2026-07-20",
+      "ref_price": 368.98,
+      "zone_low": 366.58,
+      "zone_high": 371.38,
+      "stop": 349.8,
+      "target": 407.34,
+      "fill": 366.68,
+      "entry_date": "2026-07-21",
+      "exit": 362.22,
+      "exit_date": "2026-08-19",
+      "exit_reason": "TIME_STOP",
+      "pnl_pct": -1.22,
+      "r_multiple": -0.233,
+      "bars_held": 20
+    },
+    {
+      "ticker": "FTNT",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "issue_date": "2026-08-05",
+      "ref_price": 168.29,
+      "zone_low": 166.56,
+      "zone_high": 170.02,
+      "stop": 154.42,
+      "target": 196.02,
+      "fill": 160.07,
+      "entry_date": "2026-08-06",
+      "exit": 154.42,
+      "exit_date": "2026-08-19",
+      "exit_reason": "STOP_LOSS",
+      "pnl_pct": -3.53,
+      "r_multiple": -0.407,
+      "bars_held": 9
     }
   ]
 }
