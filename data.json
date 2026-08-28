@@ -1,9 +1,24 @@
 {
-  "generated": "2026-08-27",
-  "pick": null,
-  "no_pick_reason": "Scanned the S&P 500 \u2014 nothing set up well enough. No stock is worth spending money on today.",
+  "generated": "2026-08-28",
+  "pick": {
+    "ref_price": 308.09,
+    "zone_low": 306.65,
+    "zone_high": 309.53,
+    "stop": 296.54,
+    "target": 331.18,
+    "ticker": "APD",
+    "signal_type": "MACD_CROSS",
+    "strength": 5,
+    "sector": "Materials",
+    "rsi": 49.9,
+    "vol_ratio": 1.03,
+    "ret_3m": 11.2,
+    "regime": "bull",
+    "issue_date": "2026-08-28"
+  },
+  "no_pick_reason": "",
   "stats": {
-    "picks_total": 12,
+    "picks_total": 13,
     "closed": 5,
     "open": 4,
     "voided": 3,
@@ -32,9 +47,9 @@
       "issue_date": "2026-08-07",
       "fill": 178.22,
       "entry_date": "2026-08-10",
-      "bars_held": 14,
-      "last_eval": "2026-08-27",
-      "last_close": 190.72
+      "bars_held": 15,
+      "last_eval": "2026-08-28",
+      "last_close": 190.97
     },
     {
       "ref_price": 1231.94,
@@ -53,9 +68,9 @@
       "issue_date": "2026-08-11",
       "fill": 1201.73,
       "entry_date": "2026-08-12",
-      "bars_held": 12,
-      "last_eval": "2026-08-27",
-      "last_close": 1176.1
+      "bars_held": 13,
+      "last_eval": "2026-08-28",
+      "last_close": 1174.61
     },
     {
       "ref_price": 33.49,
@@ -74,9 +89,9 @@
       "issue_date": "2026-08-19",
       "fill": 33.21,
       "entry_date": "2026-08-20",
-      "bars_held": 6,
-      "last_eval": "2026-08-27",
-      "last_close": 35.32
+      "bars_held": 7,
+      "last_eval": "2026-08-28",
+      "last_close": 34.85
     },
     {
       "ref_price": 220.34,
@@ -95,9 +110,9 @@
       "issue_date": "2026-08-21",
       "fill": 220.4,
       "entry_date": "2026-08-24",
-      "bars_held": 4,
-      "last_eval": "2026-08-27",
-      "last_close": 217.65
+      "bars_held": 5,
+      "last_eval": "2026-08-28",
+      "last_close": 218.64
     }
   ],
   "closed": [
