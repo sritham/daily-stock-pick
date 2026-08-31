@@ -1,32 +1,32 @@
 {
-  "generated": "2026-08-28",
+  "generated": "2026-08-31",
   "pick": {
-    "ref_price": 308.09,
-    "zone_low": 306.65,
-    "zone_high": 309.53,
-    "stop": 296.54,
-    "target": 331.18,
-    "ticker": "APD",
+    "ref_price": 227.84,
+    "zone_low": 224.72,
+    "zone_high": 230.95,
+    "stop": 202.88,
+    "target": 277.75,
+    "ticker": "CRWD",
     "signal_type": "MACD_CROSS",
     "strength": 5,
-    "sector": "Materials",
-    "rsi": 49.9,
-    "vol_ratio": 1.03,
-    "ret_3m": 11.2,
+    "sector": "Information Technology",
+    "rsi": 52.7,
+    "vol_ratio": 1.52,
+    "ret_3m": 18.5,
     "regime": "bull",
-    "issue_date": "2026-08-28"
+    "issue_date": "2026-08-31"
   },
   "no_pick_reason": "",
   "stats": {
-    "picks_total": 13,
-    "closed": 5,
-    "open": 4,
-    "voided": 3,
+    "picks_total": 14,
+    "closed": 6,
+    "open": 3,
+    "voided": 4,
     "wins": 1,
-    "win_rate": 20.0,
-    "avg_pnl_pct": 3.35,
-    "total_r": 0.36,
-    "pnl_per_1k": 167.4,
+    "win_rate": 16.7,
+    "avg_pnl_pct": 2.04,
+    "total_r": -0.29,
+    "pnl_per_1k": 122.5,
     "no_pick_days": 21
   },
   "open": [
@@ -47,30 +47,9 @@
       "issue_date": "2026-08-07",
       "fill": 178.22,
       "entry_date": "2026-08-10",
-      "bars_held": 15,
-      "last_eval": "2026-08-28",
-      "last_close": 190.97
-    },
-    {
-      "ref_price": 1231.94,
-      "zone_low": 1221.42,
-      "zone_high": 1242.46,
-      "stop": 1147.8,
-      "target": 1400.22,
-      "ticker": "LLY",
-      "signal_type": "MACD_CROSS",
-      "strength": 5,
-      "sector": "Health Care",
-      "rsi": 59.3,
-      "vol_ratio": 1.42,
-      "ret_3m": 27.6,
-      "regime": "bull",
-      "issue_date": "2026-08-11",
-      "fill": 1201.73,
-      "entry_date": "2026-08-12",
-      "bars_held": 13,
-      "last_eval": "2026-08-28",
-      "last_close": 1174.61
+      "bars_held": 16,
+      "last_eval": "2026-08-31",
+      "last_close": 189.98
     },
     {
       "ref_price": 33.49,
@@ -89,9 +68,9 @@
       "issue_date": "2026-08-19",
       "fill": 33.21,
       "entry_date": "2026-08-20",
-      "bars_held": 7,
-      "last_eval": "2026-08-28",
-      "last_close": 34.85
+      "bars_held": 8,
+      "last_eval": "2026-08-31",
+      "last_close": 34.42
     },
     {
       "ref_price": 220.34,
@@ -110,9 +89,9 @@
       "issue_date": "2026-08-21",
       "fill": 220.4,
       "entry_date": "2026-08-24",
-      "bars_held": 5,
-      "last_eval": "2026-08-28",
-      "last_close": 218.64
+      "bars_held": 6,
+      "last_eval": "2026-08-31",
+      "last_close": 218.57
     }
   ],
   "closed": [
@@ -210,6 +189,25 @@
       "pnl_pct": -3.53,
       "r_multiple": -0.407,
       "bars_held": 9
+    },
+    {
+      "ticker": "LLY",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "issue_date": "2026-08-11",
+      "ref_price": 1231.94,
+      "zone_low": 1221.42,
+      "zone_high": 1242.46,
+      "stop": 1147.8,
+      "target": 1400.22,
+      "fill": 1201.73,
+      "entry_date": "2026-08-12",
+      "exit": 1147.8,
+      "exit_date": "2026-08-31",
+      "exit_reason": "STOP_LOSS",
+      "pnl_pct": -4.49,
+      "r_multiple": -0.641,
+      "bars_held": 13
     }
   ]
 }
