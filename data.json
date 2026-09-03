@@ -1,27 +1,27 @@
 {
-  "generated": "2026-09-02",
+  "generated": "2026-09-03",
   "pick": {
-    "ref_price": 274.94,
-    "zone_low": 273.58,
-    "zone_high": 276.3,
-    "stop": 264.05,
-    "target": 296.72,
-    "ticker": "JNJ",
+    "ref_price": 507.94,
+    "zone_low": 500.7,
+    "zone_high": 515.18,
+    "stop": 450.03,
+    "target": 623.76,
+    "ticker": "DELL",
     "signal_type": "MACD_CROSS",
     "strength": 5,
-    "sector": "Health Care",
-    "rsi": 66.9,
-    "vol_ratio": 1.01,
-    "ret_3m": 23.8,
+    "sector": "Information Technology",
+    "rsi": 53.5,
+    "vol_ratio": 1.94,
+    "ret_3m": 29.0,
     "regime": "bull",
-    "issue_date": "2026-09-02"
+    "issue_date": "2026-09-03"
   },
   "no_pick_reason": "",
   "stats": {
-    "picks_total": 15,
+    "picks_total": 16,
     "closed": 6,
     "open": 4,
-    "voided": 4,
+    "voided": 5,
     "wins": 1,
     "win_rate": 16.7,
     "avg_pnl_pct": 2.04,
@@ -47,9 +47,9 @@
       "issue_date": "2026-08-07",
       "fill": 178.22,
       "entry_date": "2026-08-10",
-      "bars_held": 18,
-      "last_eval": "2026-09-02",
-      "last_close": 187.43
+      "bars_held": 19,
+      "last_eval": "2026-09-03",
+      "last_close": 185.94
     },
     {
       "ref_price": 33.49,
@@ -68,9 +68,9 @@
       "issue_date": "2026-08-19",
       "fill": 33.21,
       "entry_date": "2026-08-20",
-      "bars_held": 10,
-      "last_eval": "2026-09-02",
-      "last_close": 34.47
+      "bars_held": 11,
+      "last_eval": "2026-09-03",
+      "last_close": 34.4
     },
     {
       "ref_price": 220.34,
@@ -89,9 +89,9 @@
       "issue_date": "2026-08-21",
       "fill": 220.4,
       "entry_date": "2026-08-24",
-      "bars_held": 8,
-      "last_eval": "2026-09-02",
-      "last_close": 222.3
+      "bars_held": 9,
+      "last_eval": "2026-09-03",
+      "last_close": 223.24
     },
     {
       "ref_price": 227.84,
@@ -110,9 +110,9 @@
       "issue_date": "2026-08-31",
       "fill": 228.19,
       "entry_date": "2026-09-01",
-      "bars_held": 2,
-      "last_eval": "2026-09-02",
-      "last_close": 205.45
+      "bars_held": 3,
+      "last_eval": "2026-09-03",
+      "last_close": 212.88
     }
   ],
   "closed": [
