@@ -1,26 +1,26 @@
 {
-  "generated": "2026-09-03",
+  "generated": "2026-09-04",
   "pick": {
-    "ref_price": 507.94,
-    "zone_low": 500.7,
-    "zone_high": 515.18,
-    "stop": 450.03,
-    "target": 623.76,
-    "ticker": "DELL",
+    "ref_price": 89.36,
+    "zone_low": 88.43,
+    "zone_high": 90.3,
+    "stop": 81.88,
+    "target": 104.33,
+    "ticker": "BBY",
     "signal_type": "MACD_CROSS",
     "strength": 5,
-    "sector": "Information Technology",
-    "rsi": 53.5,
-    "vol_ratio": 1.94,
-    "ret_3m": 29.0,
+    "sector": "Consumer Discretionary",
+    "rsi": 56.6,
+    "vol_ratio": 1.13,
+    "ret_3m": 22.1,
     "regime": "bull",
-    "issue_date": "2026-09-03"
+    "issue_date": "2026-09-04"
   },
   "no_pick_reason": "",
   "stats": {
-    "picks_total": 16,
+    "picks_total": 17,
     "closed": 6,
-    "open": 4,
+    "open": 5,
     "voided": 5,
     "wins": 1,
     "win_rate": 16.7,
@@ -47,9 +47,9 @@
       "issue_date": "2026-08-07",
       "fill": 178.22,
       "entry_date": "2026-08-10",
-      "bars_held": 19,
-      "last_eval": "2026-09-03",
-      "last_close": 185.94
+      "bars_held": 20,
+      "last_eval": "2026-09-04",
+      "last_close": 189.07
     },
     {
       "ref_price": 33.49,
@@ -68,9 +68,9 @@
       "issue_date": "2026-08-19",
       "fill": 33.21,
       "entry_date": "2026-08-20",
-      "bars_held": 11,
-      "last_eval": "2026-09-03",
-      "last_close": 34.4
+      "bars_held": 12,
+      "last_eval": "2026-09-04",
+      "last_close": 34.05
     },
     {
       "ref_price": 220.34,
@@ -89,9 +89,9 @@
       "issue_date": "2026-08-21",
       "fill": 220.4,
       "entry_date": "2026-08-24",
-      "bars_held": 9,
-      "last_eval": "2026-09-03",
-      "last_close": 223.24
+      "bars_held": 10,
+      "last_eval": "2026-09-04",
+      "last_close": 220.55
     },
     {
       "ref_price": 227.84,
@@ -110,9 +110,30 @@
       "issue_date": "2026-08-31",
       "fill": 228.19,
       "entry_date": "2026-09-01",
-      "bars_held": 3,
-      "last_eval": "2026-09-03",
-      "last_close": 212.88
+      "bars_held": 4,
+      "last_eval": "2026-09-04",
+      "last_close": 215.74
+    },
+    {
+      "ref_price": 507.94,
+      "zone_low": 500.7,
+      "zone_high": 515.18,
+      "stop": 450.03,
+      "target": 623.76,
+      "ticker": "DELL",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "sector": "Information Technology",
+      "rsi": 53.5,
+      "vol_ratio": 1.94,
+      "ret_3m": 29.0,
+      "regime": "bull",
+      "issue_date": "2026-09-03",
+      "fill": 513.78,
+      "entry_date": "2026-09-04",
+      "bars_held": 1,
+      "last_eval": "2026-09-04",
+      "last_close": 512.22
     }
   ],
   "closed": [
