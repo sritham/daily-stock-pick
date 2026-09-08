@@ -1,56 +1,20 @@
 {
-  "generated": "2026-09-07",
-  "pick": {
-    "ref_price": 89.36,
-    "zone_low": 88.43,
-    "zone_high": 90.3,
-    "stop": 81.88,
-    "target": 104.33,
-    "ticker": "BBY",
-    "signal_type": "MACD_CROSS",
-    "strength": 5,
-    "sector": "Consumer Discretionary",
-    "rsi": 56.6,
-    "vol_ratio": 1.13,
-    "ret_3m": 22.1,
-    "regime": "bull",
-    "issue_date": "2026-09-04"
-  },
-  "no_pick_reason": "",
+  "generated": "2026-09-08",
+  "pick": null,
+  "no_pick_reason": "Scanned the S&P 500 \u2014 nothing set up well enough. No stock is worth spending money on today.",
   "stats": {
     "picks_total": 17,
-    "closed": 6,
+    "closed": 7,
     "open": 5,
     "voided": 5,
-    "wins": 1,
-    "win_rate": 16.7,
-    "avg_pnl_pct": 2.04,
-    "total_r": -0.29,
-    "pnl_per_1k": 122.5,
-    "no_pick_days": 22
+    "wins": 2,
+    "win_rate": 28.6,
+    "avg_pnl_pct": 2.45,
+    "total_r": 0.56,
+    "pnl_per_1k": 171.7,
+    "no_pick_days": 23
   },
   "open": [
-    {
-      "ref_price": 178.56,
-      "zone_low": 177.26,
-      "zone_high": 179.86,
-      "stop": 168.12,
-      "target": 199.44,
-      "ticker": "EXPD",
-      "signal_type": "MACD_CROSS",
-      "strength": 5,
-      "sector": "Industrials",
-      "rsi": 44.1,
-      "vol_ratio": 1.27,
-      "ret_3m": 18.2,
-      "regime": "bull",
-      "issue_date": "2026-08-07",
-      "fill": 178.22,
-      "entry_date": "2026-08-10",
-      "bars_held": 20,
-      "last_eval": "2026-09-04",
-      "last_close": 189.07
-    },
     {
       "ref_price": 33.49,
       "zone_low": 33.24,
@@ -68,9 +32,9 @@
       "issue_date": "2026-08-19",
       "fill": 33.21,
       "entry_date": "2026-08-20",
-      "bars_held": 12,
-      "last_eval": "2026-09-04",
-      "last_close": 34.05
+      "bars_held": 13,
+      "last_eval": "2026-09-08",
+      "last_close": 33.25
     },
     {
       "ref_price": 220.34,
@@ -89,9 +53,9 @@
       "issue_date": "2026-08-21",
       "fill": 220.4,
       "entry_date": "2026-08-24",
-      "bars_held": 10,
-      "last_eval": "2026-09-04",
-      "last_close": 220.55
+      "bars_held": 11,
+      "last_eval": "2026-09-08",
+      "last_close": 215.76
     },
     {
       "ref_price": 227.84,
@@ -110,9 +74,9 @@
       "issue_date": "2026-08-31",
       "fill": 228.19,
       "entry_date": "2026-09-01",
-      "bars_held": 4,
-      "last_eval": "2026-09-04",
-      "last_close": 215.74
+      "bars_held": 5,
+      "last_eval": "2026-09-08",
+      "last_close": 209.22
     },
     {
       "ref_price": 507.94,
@@ -131,9 +95,30 @@
       "issue_date": "2026-09-03",
       "fill": 513.78,
       "entry_date": "2026-09-04",
+      "bars_held": 2,
+      "last_eval": "2026-09-08",
+      "last_close": 528.09
+    },
+    {
+      "ref_price": 89.36,
+      "zone_low": 88.43,
+      "zone_high": 90.3,
+      "stop": 81.88,
+      "target": 104.33,
+      "ticker": "BBY",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "sector": "Consumer Discretionary",
+      "rsi": 56.6,
+      "vol_ratio": 1.13,
+      "ret_3m": 22.1,
+      "regime": "bull",
+      "issue_date": "2026-09-04",
+      "fill": 89.8,
+      "entry_date": "2026-09-08",
       "bars_held": 1,
-      "last_eval": "2026-09-04",
-      "last_close": 512.22
+      "last_eval": "2026-09-08",
+      "last_close": 88.13
     }
   ],
   "closed": [
@@ -250,6 +235,25 @@
       "pnl_pct": -4.49,
       "r_multiple": -0.641,
       "bars_held": 13
+    },
+    {
+      "ticker": "EXPD",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "issue_date": "2026-08-07",
+      "ref_price": 178.56,
+      "zone_low": 177.26,
+      "zone_high": 179.86,
+      "stop": 168.12,
+      "target": 199.44,
+      "fill": 178.22,
+      "entry_date": "2026-08-10",
+      "exit": 186.99,
+      "exit_date": "2026-09-08",
+      "exit_reason": "TIME_STOP",
+      "pnl_pct": 4.92,
+      "r_multiple": 0.841,
+      "bars_held": 20
     }
   ]
 }
