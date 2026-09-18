@@ -1,41 +1,20 @@
 {
-  "generated": "2026-09-17",
+  "generated": "2026-09-18",
   "pick": null,
-  "no_pick_reason": "Scanned the S&P 500 \u2014 nothing set up well enough. No stock is worth spending money on today.",
+  "no_pick_reason": "Market regime is 'correction' (SPY below its trend). No new buys until the market is back in an uptrend.",
   "stats": {
     "picks_total": 17,
-    "closed": 7,
-    "open": 5,
+    "closed": 8,
+    "open": 4,
     "voided": 5,
     "wins": 2,
-    "win_rate": 28.6,
-    "avg_pnl_pct": 2.45,
-    "total_r": 0.56,
-    "pnl_per_1k": 171.7,
-    "no_pick_days": 30
+    "win_rate": 25.0,
+    "avg_pnl_pct": 2.0,
+    "total_r": 0.36,
+    "pnl_per_1k": 159.7,
+    "no_pick_days": 31
   },
   "open": [
-    {
-      "ref_price": 33.49,
-      "zone_low": 33.24,
-      "zone_high": 33.74,
-      "stop": 31.46,
-      "target": 37.56,
-      "ticker": "NWS",
-      "signal_type": "MACD_CROSS",
-      "strength": 5,
-      "sector": "Communication Services",
-      "rsi": 61.7,
-      "vol_ratio": 1.01,
-      "ret_3m": 11.3,
-      "regime": "bull",
-      "issue_date": "2026-08-19",
-      "fill": 33.21,
-      "entry_date": "2026-08-20",
-      "bars_held": 20,
-      "last_eval": "2026-09-17",
-      "last_close": 33.55
-    },
     {
       "ref_price": 220.34,
       "zone_low": 219.13,
@@ -53,9 +32,9 @@
       "issue_date": "2026-08-21",
       "fill": 220.4,
       "entry_date": "2026-08-24",
-      "bars_held": 18,
-      "last_eval": "2026-09-17",
-      "last_close": 215.46
+      "bars_held": 19,
+      "last_eval": "2026-09-18",
+      "last_close": 213.16
     },
     {
       "ref_price": 227.84,
@@ -74,9 +53,9 @@
       "issue_date": "2026-08-31",
       "fill": 228.19,
       "entry_date": "2026-09-01",
-      "bars_held": 12,
-      "last_eval": "2026-09-17",
-      "last_close": 245.78
+      "bars_held": 13,
+      "last_eval": "2026-09-18",
+      "last_close": 237.29
     },
     {
       "ref_price": 507.94,
@@ -95,9 +74,9 @@
       "issue_date": "2026-09-03",
       "fill": 513.78,
       "entry_date": "2026-09-04",
-      "bars_held": 9,
-      "last_eval": "2026-09-17",
-      "last_close": 586.71
+      "bars_held": 10,
+      "last_eval": "2026-09-18",
+      "last_close": 579.28
     },
     {
       "ref_price": 89.36,
@@ -116,9 +95,9 @@
       "issue_date": "2026-09-04",
       "fill": 89.8,
       "entry_date": "2026-09-08",
-      "bars_held": 8,
-      "last_eval": "2026-09-17",
-      "last_close": 94.78
+      "bars_held": 9,
+      "last_eval": "2026-09-18",
+      "last_close": 94.32
     }
   ],
   "closed": [
@@ -253,6 +232,25 @@
       "exit_reason": "TIME_STOP",
       "pnl_pct": 4.92,
       "r_multiple": 0.841,
+      "bars_held": 20
+    },
+    {
+      "ticker": "NWS",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "issue_date": "2026-08-19",
+      "ref_price": 33.49,
+      "zone_low": 33.24,
+      "zone_high": 33.74,
+      "stop": 31.46,
+      "target": 37.56,
+      "fill": 33.21,
+      "entry_date": "2026-08-20",
+      "exit": 32.81,
+      "exit_date": "2026-09-18",
+      "exit_reason": "TIME_STOP",
+      "pnl_pct": -1.2,
+      "r_multiple": -0.197,
       "bars_held": 20
     }
   ]
