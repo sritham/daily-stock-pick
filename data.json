@@ -1,9 +1,24 @@
 {
-  "generated": "2026-09-18",
-  "pick": null,
-  "no_pick_reason": "Market regime is 'correction' (SPY below its trend). No new buys until the market is back in an uptrend.",
+  "generated": "2026-09-21",
+  "pick": {
+    "ref_price": 112.36,
+    "zone_low": 110.99,
+    "zone_high": 113.73,
+    "stop": 101.39,
+    "target": 134.3,
+    "ticker": "P",
+    "signal_type": "MACD_CROSS",
+    "strength": 5,
+    "sector": "Information Technology",
+    "rsi": 71.6,
+    "vol_ratio": 2.56,
+    "ret_3m": 55.3,
+    "regime": "bull",
+    "issue_date": "2026-09-21"
+  },
+  "no_pick_reason": "",
   "stats": {
-    "picks_total": 17,
+    "picks_total": 18,
     "closed": 8,
     "open": 4,
     "voided": 5,
@@ -32,9 +47,9 @@
       "issue_date": "2026-08-21",
       "fill": 220.4,
       "entry_date": "2026-08-24",
-      "bars_held": 19,
-      "last_eval": "2026-09-18",
-      "last_close": 213.16
+      "bars_held": 20,
+      "last_eval": "2026-09-21",
+      "last_close": 213.77
     },
     {
       "ref_price": 227.84,
@@ -53,9 +68,9 @@
       "issue_date": "2026-08-31",
       "fill": 228.19,
       "entry_date": "2026-09-01",
-      "bars_held": 13,
-      "last_eval": "2026-09-18",
-      "last_close": 237.29
+      "bars_held": 14,
+      "last_eval": "2026-09-21",
+      "last_close": 246.45
     },
     {
       "ref_price": 507.94,
@@ -74,9 +89,9 @@
       "issue_date": "2026-09-03",
       "fill": 513.78,
       "entry_date": "2026-09-04",
-      "bars_held": 10,
-      "last_eval": "2026-09-18",
-      "last_close": 579.28
+      "bars_held": 11,
+      "last_eval": "2026-09-21",
+      "last_close": 574.38
     },
     {
       "ref_price": 89.36,
@@ -95,9 +110,9 @@
       "issue_date": "2026-09-04",
       "fill": 89.8,
       "entry_date": "2026-09-08",
-      "bars_held": 9,
-      "last_eval": "2026-09-18",
-      "last_close": 94.32
+      "bars_held": 10,
+      "last_eval": "2026-09-21",
+      "last_close": 94.16
     }
   ],
   "closed": [
