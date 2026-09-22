@@ -1,56 +1,35 @@
 {
-  "generated": "2026-09-21",
+  "generated": "2026-09-22",
   "pick": {
-    "ref_price": 112.36,
-    "zone_low": 110.99,
-    "zone_high": 113.73,
-    "stop": 101.39,
-    "target": 134.3,
-    "ticker": "P",
+    "ref_price": 40.63,
+    "zone_low": 40.03,
+    "zone_high": 41.22,
+    "stop": 35.88,
+    "target": 50.13,
+    "ticker": "SMCI",
     "signal_type": "MACD_CROSS",
     "strength": 5,
     "sector": "Information Technology",
-    "rsi": 71.6,
-    "vol_ratio": 2.56,
-    "ret_3m": 55.3,
+    "rsi": 58.8,
+    "vol_ratio": 1.09,
+    "ret_3m": 25.2,
     "regime": "bull",
-    "issue_date": "2026-09-21"
+    "issue_date": "2026-09-22"
   },
   "no_pick_reason": "",
   "stats": {
-    "picks_total": 18,
-    "closed": 8,
+    "picks_total": 19,
+    "closed": 9,
     "open": 4,
     "voided": 5,
     "wins": 2,
-    "win_rate": 25.0,
-    "avg_pnl_pct": 2.0,
-    "total_r": 0.36,
-    "pnl_per_1k": 159.7,
+    "win_rate": 22.2,
+    "avg_pnl_pct": 1.29,
+    "total_r": -0.65,
+    "pnl_per_1k": 115.7,
     "no_pick_days": 31
   },
   "open": [
-    {
-      "ref_price": 220.34,
-      "zone_low": 219.13,
-      "zone_high": 221.55,
-      "stop": 210.7,
-      "target": 239.63,
-      "ticker": "PGR",
-      "signal_type": "MACD_CROSS",
-      "strength": 5,
-      "sector": "Financials",
-      "rsi": 61.6,
-      "vol_ratio": 1.4,
-      "ret_3m": 10.8,
-      "regime": "bull",
-      "issue_date": "2026-08-21",
-      "fill": 220.4,
-      "entry_date": "2026-08-24",
-      "bars_held": 20,
-      "last_eval": "2026-09-21",
-      "last_close": 213.77
-    },
     {
       "ref_price": 227.84,
       "zone_low": 224.72,
@@ -68,9 +47,9 @@
       "issue_date": "2026-08-31",
       "fill": 228.19,
       "entry_date": "2026-09-01",
-      "bars_held": 14,
-      "last_eval": "2026-09-21",
-      "last_close": 246.45
+      "bars_held": 15,
+      "last_eval": "2026-09-22",
+      "last_close": 247.02
     },
     {
       "ref_price": 507.94,
@@ -89,9 +68,9 @@
       "issue_date": "2026-09-03",
       "fill": 513.78,
       "entry_date": "2026-09-04",
-      "bars_held": 11,
-      "last_eval": "2026-09-21",
-      "last_close": 574.38
+      "bars_held": 12,
+      "last_eval": "2026-09-22",
+      "last_close": 556.0
     },
     {
       "ref_price": 89.36,
@@ -110,9 +89,30 @@
       "issue_date": "2026-09-04",
       "fill": 89.8,
       "entry_date": "2026-09-08",
-      "bars_held": 10,
-      "last_eval": "2026-09-21",
-      "last_close": 94.16
+      "bars_held": 11,
+      "last_eval": "2026-09-22",
+      "last_close": 94.75
+    },
+    {
+      "ref_price": 112.36,
+      "zone_low": 110.99,
+      "zone_high": 113.73,
+      "stop": 101.39,
+      "target": 134.3,
+      "ticker": "P",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "sector": "Information Technology",
+      "rsi": 71.6,
+      "vol_ratio": 2.56,
+      "ret_3m": 55.3,
+      "regime": "bull",
+      "issue_date": "2026-09-21",
+      "fill": 111.39,
+      "entry_date": "2026-09-22",
+      "bars_held": 1,
+      "last_eval": "2026-09-22",
+      "last_close": 109.7
     }
   ],
   "closed": [
@@ -266,6 +266,25 @@
       "exit_reason": "TIME_STOP",
       "pnl_pct": -1.2,
       "r_multiple": -0.197,
+      "bars_held": 20
+    },
+    {
+      "ticker": "PGR",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "issue_date": "2026-08-21",
+      "ref_price": 220.34,
+      "zone_low": 219.13,
+      "zone_high": 221.55,
+      "stop": 210.7,
+      "target": 239.63,
+      "fill": 220.4,
+      "entry_date": "2026-08-24",
+      "exit": 210.7,
+      "exit_date": "2026-09-22",
+      "exit_reason": "STOP_LOSS",
+      "pnl_pct": -4.4,
+      "r_multiple": -1.006,
       "bars_held": 20
     }
   ]
