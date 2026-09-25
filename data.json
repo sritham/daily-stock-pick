@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24",
+  "generated": "2026-09-25",
   "pick": null,
   "no_pick_reason": "Scanned the S&P 500 \u2014 nothing set up well enough. No stock is worth spending money on today.",
   "stats": {
@@ -12,7 +12,7 @@
     "avg_pnl_pct": 1.29,
     "total_r": -0.65,
     "pnl_per_1k": 115.7,
-    "no_pick_days": 32
+    "no_pick_days": 33
   },
   "open": [
     {
@@ -32,9 +32,9 @@
       "issue_date": "2026-08-31",
       "fill": 228.19,
       "entry_date": "2026-09-01",
-      "bars_held": 17,
-      "last_eval": "2026-09-24",
-      "last_close": 261.19
+      "bars_held": 18,
+      "last_eval": "2026-09-25",
+      "last_close": 255.38
     },
     {
       "ref_price": 507.94,
@@ -53,9 +53,9 @@
       "issue_date": "2026-09-03",
       "fill": 513.78,
       "entry_date": "2026-09-04",
-      "bars_held": 14,
-      "last_eval": "2026-09-24",
-      "last_close": 532.83
+      "bars_held": 15,
+      "last_eval": "2026-09-25",
+      "last_close": 560.99
     },
     {
       "ref_price": 89.36,
@@ -74,9 +74,9 @@
       "issue_date": "2026-09-04",
       "fill": 89.8,
       "entry_date": "2026-09-08",
-      "bars_held": 13,
-      "last_eval": "2026-09-24",
-      "last_close": 90.39
+      "bars_held": 14,
+      "last_eval": "2026-09-25",
+      "last_close": 90.07
     },
     {
       "ref_price": 112.36,
@@ -95,9 +95,9 @@
       "issue_date": "2026-09-21",
       "fill": 111.39,
       "entry_date": "2026-09-22",
-      "bars_held": 3,
-      "last_eval": "2026-09-24",
-      "last_close": 129.84
+      "bars_held": 4,
+      "last_eval": "2026-09-25",
+      "last_close": 124.61
     },
     {
       "ref_price": 41.6,
@@ -116,9 +116,9 @@
       "issue_date": "2026-09-23",
       "fill": 40.44,
       "entry_date": "2026-09-24",
-      "bars_held": 1,
-      "last_eval": "2026-09-24",
-      "last_close": 40.11
+      "bars_held": 2,
+      "last_eval": "2026-09-25",
+      "last_close": 42.55
     }
   ],
   "closed": [
