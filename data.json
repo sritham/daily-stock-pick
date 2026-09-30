@@ -1,41 +1,20 @@
 {
-  "generated": "2026-09-29",
+  "generated": "2026-09-30",
   "pick": null,
   "no_pick_reason": "Scanned the S&P 500 \u2014 nothing set up well enough. No stock is worth spending money on today.",
   "stats": {
     "picks_total": 20,
-    "closed": 9,
-    "open": 5,
+    "closed": 10,
+    "open": 4,
     "voided": 6,
-    "wins": 2,
-    "win_rate": 22.2,
-    "avg_pnl_pct": 1.29,
-    "total_r": -0.65,
-    "pnl_per_1k": 115.7,
-    "no_pick_days": 35
+    "wins": 3,
+    "win_rate": 30.0,
+    "avg_pnl_pct": 2.86,
+    "total_r": 0.91,
+    "pnl_per_1k": 285.6,
+    "no_pick_days": 36
   },
   "open": [
-    {
-      "ref_price": 227.84,
-      "zone_low": 224.72,
-      "zone_high": 230.95,
-      "stop": 202.88,
-      "target": 277.75,
-      "ticker": "CRWD",
-      "signal_type": "MACD_CROSS",
-      "strength": 5,
-      "sector": "Information Technology",
-      "rsi": 52.7,
-      "vol_ratio": 1.52,
-      "ret_3m": 18.5,
-      "regime": "bull",
-      "issue_date": "2026-08-31",
-      "fill": 228.19,
-      "entry_date": "2026-09-01",
-      "bars_held": 20,
-      "last_eval": "2026-09-29",
-      "last_close": 259.04
-    },
     {
       "ref_price": 507.94,
       "zone_low": 500.7,
@@ -53,9 +32,9 @@
       "issue_date": "2026-09-03",
       "fill": 513.78,
       "entry_date": "2026-09-04",
-      "bars_held": 17,
-      "last_eval": "2026-09-29",
-      "last_close": 540.54
+      "bars_held": 18,
+      "last_eval": "2026-09-30",
+      "last_close": 543.41
     },
     {
       "ref_price": 89.36,
@@ -74,9 +53,9 @@
       "issue_date": "2026-09-04",
       "fill": 89.8,
       "entry_date": "2026-09-08",
-      "bars_held": 16,
-      "last_eval": "2026-09-29",
-      "last_close": 88.4
+      "bars_held": 17,
+      "last_eval": "2026-09-30",
+      "last_close": 88.58
     },
     {
       "ref_price": 112.36,
@@ -95,9 +74,9 @@
       "issue_date": "2026-09-21",
       "fill": 111.39,
       "entry_date": "2026-09-22",
-      "bars_held": 6,
-      "last_eval": "2026-09-29",
-      "last_close": 129.97
+      "bars_held": 7,
+      "last_eval": "2026-09-30",
+      "last_close": 130.48
     },
     {
       "ref_price": 41.6,
@@ -116,9 +95,9 @@
       "issue_date": "2026-09-23",
       "fill": 40.44,
       "entry_date": "2026-09-24",
-      "bars_held": 4,
-      "last_eval": "2026-09-29",
-      "last_close": 41.2
+      "bars_held": 5,
+      "last_eval": "2026-09-30",
+      "last_close": 40.62
     }
   ],
   "closed": [
@@ -291,6 +270,25 @@
       "exit_reason": "STOP_LOSS",
       "pnl_pct": -4.4,
       "r_multiple": -1.006,
+      "bars_held": 20
+    },
+    {
+      "ticker": "CRWD",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "issue_date": "2026-08-31",
+      "ref_price": 227.84,
+      "zone_low": 224.72,
+      "zone_high": 230.95,
+      "stop": 202.88,
+      "target": 277.75,
+      "fill": 228.19,
+      "entry_date": "2026-09-01",
+      "exit": 266.95,
+      "exit_date": "2026-09-30",
+      "exit_reason": "TIME_STOP",
+      "pnl_pct": 16.99,
+      "r_multiple": 1.553,
       "bars_held": 20
     }
   ]
