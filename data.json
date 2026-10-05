@@ -1,41 +1,35 @@
 {
-  "generated": "2026-10-02",
-  "pick": null,
-  "no_pick_reason": "Scanned the S&P 500 \u2014 nothing set up well enough. No stock is worth spending money on today.",
+  "generated": "2026-10-05",
+  "pick": {
+    "ref_price": 193.82,
+    "zone_low": 192.73,
+    "zone_high": 194.91,
+    "stop": 185.09,
+    "target": 211.27,
+    "ticker": "EXPD",
+    "signal_type": "MACD_CROSS",
+    "strength": 5,
+    "sector": "Industrials",
+    "rsi": 49.9,
+    "vol_ratio": 1.11,
+    "ret_3m": 17.9,
+    "regime": "bull",
+    "issue_date": "2026-10-05"
+  },
+  "no_pick_reason": "",
   "stats": {
-    "picks_total": 20,
-    "closed": 11,
-    "open": 3,
+    "picks_total": 21,
+    "closed": 12,
+    "open": 2,
     "voided": 6,
-    "wins": 4,
-    "win_rate": 36.4,
-    "avg_pnl_pct": 4.47,
-    "total_r": 2.99,
-    "pnl_per_1k": 491.3,
+    "wins": 5,
+    "win_rate": 41.7,
+    "avg_pnl_pct": 4.7,
+    "total_r": 3.63,
+    "pnl_per_1k": 563.5,
     "no_pick_days": 38
   },
   "open": [
-    {
-      "ref_price": 507.94,
-      "zone_low": 500.7,
-      "zone_high": 515.18,
-      "stop": 450.03,
-      "target": 623.76,
-      "ticker": "DELL",
-      "signal_type": "MACD_CROSS",
-      "strength": 5,
-      "sector": "Information Technology",
-      "rsi": 53.5,
-      "vol_ratio": 1.94,
-      "ret_3m": 29.0,
-      "regime": "bull",
-      "issue_date": "2026-09-03",
-      "fill": 513.78,
-      "entry_date": "2026-09-04",
-      "bars_held": 20,
-      "last_eval": "2026-10-02",
-      "last_close": 565.0
-    },
     {
       "ref_price": 89.36,
       "zone_low": 88.43,
@@ -53,9 +47,9 @@
       "issue_date": "2026-09-04",
       "fill": 89.8,
       "entry_date": "2026-09-08",
-      "bars_held": 19,
-      "last_eval": "2026-10-02",
-      "last_close": 88.35
+      "bars_held": 20,
+      "last_eval": "2026-10-05",
+      "last_close": 87.2
     },
     {
       "ref_price": 41.6,
@@ -74,9 +68,9 @@
       "issue_date": "2026-09-23",
       "fill": 40.44,
       "entry_date": "2026-09-24",
-      "bars_held": 7,
-      "last_eval": "2026-10-02",
-      "last_close": 43.37
+      "bars_held": 8,
+      "last_eval": "2026-10-05",
+      "last_close": 43.03
     }
   ],
   "closed": [
@@ -288,6 +282,25 @@
       "pnl_pct": 20.57,
       "r_multiple": 2.088,
       "bars_held": 7
+    },
+    {
+      "ticker": "DELL",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "issue_date": "2026-09-03",
+      "ref_price": 507.94,
+      "zone_low": 500.7,
+      "zone_high": 515.18,
+      "stop": 450.03,
+      "target": 623.76,
+      "fill": 513.78,
+      "entry_date": "2026-09-04",
+      "exit": 550.89,
+      "exit_date": "2026-10-05",
+      "exit_reason": "TIME_STOP",
+      "pnl_pct": 7.22,
+      "r_multiple": 0.641,
+      "bars_held": 20
     }
   ]
 }
