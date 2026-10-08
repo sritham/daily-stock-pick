@@ -1,26 +1,26 @@
 {
-  "generated": "2026-10-07",
+  "generated": "2026-10-08",
   "pick": {
-    "ref_price": 272.99,
-    "zone_low": 271.63,
-    "zone_high": 274.35,
-    "stop": 262.12,
-    "target": 294.72,
-    "ticker": "ABBV",
+    "ref_price": 295.56,
+    "zone_low": 293.8,
+    "zone_high": 297.32,
+    "stop": 281.45,
+    "target": 323.77,
+    "ticker": "VRSN",
     "signal_type": "MACD_CROSS",
     "strength": 5,
-    "sector": "Health Care",
-    "rsi": 69.0,
-    "vol_ratio": 1.13,
-    "ret_3m": 10.8,
+    "sector": "Information Technology",
+    "rsi": 42.3,
+    "vol_ratio": 1.32,
+    "ret_3m": 9.7,
     "regime": "bull",
-    "issue_date": "2026-10-07"
+    "issue_date": "2026-10-08"
   },
   "no_pick_reason": "",
   "stats": {
-    "picks_total": 22,
+    "picks_total": 23,
     "closed": 13,
-    "open": 2,
+    "open": 3,
     "voided": 6,
     "wins": 5,
     "win_rate": 38.5,
@@ -47,9 +47,9 @@
       "issue_date": "2026-09-23",
       "fill": 40.44,
       "entry_date": "2026-09-24",
-      "bars_held": 10,
-      "last_eval": "2026-10-07",
-      "last_close": 44.54
+      "bars_held": 11,
+      "last_eval": "2026-10-08",
+      "last_close": 42.33
     },
     {
       "ref_price": 193.82,
@@ -68,9 +68,30 @@
       "issue_date": "2026-10-05",
       "fill": 193.54,
       "entry_date": "2026-10-06",
-      "bars_held": 2,
-      "last_eval": "2026-10-07",
-      "last_close": 192.32
+      "bars_held": 3,
+      "last_eval": "2026-10-08",
+      "last_close": 193.53
+    },
+    {
+      "ref_price": 272.99,
+      "zone_low": 271.63,
+      "zone_high": 274.35,
+      "stop": 262.12,
+      "target": 294.72,
+      "ticker": "ABBV",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "sector": "Health Care",
+      "rsi": 69.0,
+      "vol_ratio": 1.13,
+      "ret_3m": 10.8,
+      "regime": "bull",
+      "issue_date": "2026-10-07",
+      "fill": 270.98,
+      "entry_date": "2026-10-08",
+      "bars_held": 1,
+      "last_eval": "2026-10-08",
+      "last_close": 269.67
     }
   ],
   "closed": [
