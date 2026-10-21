@@ -1,9 +1,24 @@
 {
-  "generated": "2026-10-20",
-  "pick": null,
-  "no_pick_reason": "Scanned the S&P 500 \u2014 nothing set up well enough. No stock is worth spending money on today.",
+  "generated": "2026-10-21",
+  "pick": {
+    "ref_price": 72.78,
+    "zone_low": 72.26,
+    "zone_high": 73.3,
+    "stop": 68.63,
+    "target": 81.08,
+    "ticker": "WMB",
+    "signal_type": "MACD_CROSS",
+    "strength": 5,
+    "sector": "Energy",
+    "rsi": 59.9,
+    "vol_ratio": 1.08,
+    "ret_3m": -0.9,
+    "regime": "bull",
+    "issue_date": "2026-10-21"
+  },
+  "no_pick_reason": "",
   "stats": {
-    "picks_total": 24,
+    "picks_total": 25,
     "closed": 14,
     "open": 3,
     "voided": 7,
@@ -32,9 +47,9 @@
       "issue_date": "2026-10-05",
       "fill": 193.54,
       "entry_date": "2026-10-06",
-      "bars_held": 11,
-      "last_eval": "2026-10-20",
-      "last_close": 197.9
+      "bars_held": 12,
+      "last_eval": "2026-10-21",
+      "last_close": 198.46
     },
     {
       "ref_price": 272.99,
@@ -53,9 +68,9 @@
       "issue_date": "2026-10-07",
       "fill": 270.98,
       "entry_date": "2026-10-08",
-      "bars_held": 9,
-      "last_eval": "2026-10-20",
-      "last_close": 289.17
+      "bars_held": 10,
+      "last_eval": "2026-10-21",
+      "last_close": 283.0
     },
     {
       "ref_price": 213.74,
@@ -74,9 +89,9 @@
       "issue_date": "2026-10-12",
       "fill": 207.63,
       "entry_date": "2026-10-13",
-      "bars_held": 6,
-      "last_eval": "2026-10-20",
-      "last_close": 232.82
+      "bars_held": 7,
+      "last_eval": "2026-10-21",
+      "last_close": 243.97
     }
   ],
   "closed": [
