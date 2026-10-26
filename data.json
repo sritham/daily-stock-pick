@@ -1,18 +1,18 @@
 {
-  "generated": "2026-10-23",
+  "generated": "2026-10-26",
   "pick": null,
   "no_pick_reason": "Market regime is 'correction' (SPY below its trend). No new buys until the market is back in an uptrend.",
   "stats": {
     "picks_total": 25,
-    "closed": 14,
-    "open": 4,
+    "closed": 15,
+    "open": 3,
     "voided": 7,
     "wins": 5,
-    "win_rate": 35.7,
-    "avg_pnl_pct": 3.03,
-    "total_r": 2.31,
-    "pnl_per_1k": 424.1,
-    "no_pick_days": 48
+    "win_rate": 33.3,
+    "avg_pnl_pct": 2.0,
+    "total_r": 1.5,
+    "pnl_per_1k": 300.2,
+    "no_pick_days": 49
   },
   "open": [
     {
@@ -32,9 +32,9 @@
       "issue_date": "2026-10-05",
       "fill": 193.54,
       "entry_date": "2026-10-06",
-      "bars_held": 14,
-      "last_eval": "2026-10-23",
-      "last_close": 195.02
+      "bars_held": 15,
+      "last_eval": "2026-10-26",
+      "last_close": 196.69
     },
     {
       "ref_price": 272.99,
@@ -53,30 +53,9 @@
       "issue_date": "2026-10-07",
       "fill": 270.98,
       "entry_date": "2026-10-08",
-      "bars_held": 12,
-      "last_eval": "2026-10-23",
-      "last_close": 285.12
-    },
-    {
-      "ref_price": 213.74,
-      "zone_low": 209.76,
-      "zone_high": 217.72,
-      "stop": 181.91,
-      "target": 277.4,
-      "ticker": "MRNA",
-      "signal_type": "MACD_CROSS",
-      "strength": 5,
-      "sector": "Health Care",
-      "rsi": 63.2,
-      "vol_ratio": 1.27,
-      "ret_3m": 213.0,
-      "regime": "bull",
-      "issue_date": "2026-10-12",
-      "fill": 207.63,
-      "entry_date": "2026-10-13",
-      "bars_held": 9,
-      "last_eval": "2026-10-23",
-      "last_close": 203.34
+      "bars_held": 13,
+      "last_eval": "2026-10-26",
+      "last_close": 286.11
     },
     {
       "ref_price": 72.78,
@@ -95,9 +74,9 @@
       "issue_date": "2026-10-21",
       "fill": 72.61,
       "entry_date": "2026-10-22",
-      "bars_held": 2,
-      "last_eval": "2026-10-23",
-      "last_close": 71.9
+      "bars_held": 3,
+      "last_eval": "2026-10-26",
+      "last_close": 71.86
     }
   ],
   "closed": [
@@ -366,6 +345,25 @@
       "pnl_pct": -9.27,
       "r_multiple": -0.764,
       "bars_held": 14
+    },
+    {
+      "ticker": "MRNA",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "issue_date": "2026-10-12",
+      "ref_price": 213.74,
+      "zone_low": 209.76,
+      "zone_high": 217.72,
+      "stop": 181.91,
+      "target": 277.4,
+      "fill": 207.63,
+      "entry_date": "2026-10-13",
+      "exit": 181.91,
+      "exit_date": "2026-10-26",
+      "exit_reason": "STOP_LOSS",
+      "pnl_pct": -12.39,
+      "r_multiple": -0.808,
+      "bars_held": 9
     }
   ]
 }
