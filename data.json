@@ -1,26 +1,26 @@
 {
-  "generated": "2026-10-28",
+  "generated": "2026-10-29",
   "pick": {
-    "ref_price": 425.9,
-    "zone_low": 422.28,
-    "zone_high": 429.52,
-    "stop": 396.93,
-    "target": 483.84,
-    "ticker": "ADI",
+    "ref_price": 237.32,
+    "zone_low": 235.86,
+    "zone_high": 238.78,
+    "stop": 225.64,
+    "target": 260.67,
+    "ticker": "IEX",
     "signal_type": "MACD_CROSS",
     "strength": 5,
-    "sector": "Information Technology",
-    "rsi": 59.8,
-    "vol_ratio": 1.12,
-    "ret_3m": 16.3,
+    "sector": "Industrials",
+    "rsi": 54.5,
+    "vol_ratio": 1.22,
+    "ret_3m": 2.3,
     "regime": "bull",
-    "issue_date": "2026-10-28"
+    "issue_date": "2026-10-29"
   },
   "no_pick_reason": "",
   "stats": {
-    "picks_total": 26,
+    "picks_total": 27,
     "closed": 15,
-    "open": 3,
+    "open": 4,
     "voided": 7,
     "wins": 5,
     "win_rate": 33.3,
@@ -47,9 +47,9 @@
       "issue_date": "2026-10-05",
       "fill": 193.54,
       "entry_date": "2026-10-06",
-      "bars_held": 17,
-      "last_eval": "2026-10-28",
-      "last_close": 197.19
+      "bars_held": 18,
+      "last_eval": "2026-10-29",
+      "last_close": 197.49
     },
     {
       "ref_price": 272.99,
@@ -68,9 +68,9 @@
       "issue_date": "2026-10-07",
       "fill": 270.98,
       "entry_date": "2026-10-08",
-      "bars_held": 15,
-      "last_eval": "2026-10-28",
-      "last_close": 287.35
+      "bars_held": 16,
+      "last_eval": "2026-10-29",
+      "last_close": 288.48
     },
     {
       "ref_price": 72.78,
@@ -89,9 +89,30 @@
       "issue_date": "2026-10-21",
       "fill": 72.61,
       "entry_date": "2026-10-22",
-      "bars_held": 5,
-      "last_eval": "2026-10-28",
-      "last_close": 74.68
+      "bars_held": 6,
+      "last_eval": "2026-10-29",
+      "last_close": 74.95
+    },
+    {
+      "ref_price": 425.9,
+      "zone_low": 422.28,
+      "zone_high": 429.52,
+      "stop": 396.93,
+      "target": 483.84,
+      "ticker": "ADI",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "sector": "Information Technology",
+      "rsi": 59.8,
+      "vol_ratio": 1.12,
+      "ret_3m": 16.3,
+      "regime": "bull",
+      "issue_date": "2026-10-28",
+      "fill": 428.76,
+      "entry_date": "2026-10-29",
+      "bars_held": 1,
+      "last_eval": "2026-10-29",
+      "last_close": 428.53
     }
   ],
   "closed": [
