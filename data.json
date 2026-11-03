@@ -1,41 +1,20 @@
 {
-  "generated": "2026-11-02",
+  "generated": "2026-11-03",
   "pick": null,
   "no_pick_reason": "Market regime is 'correction' (SPY below its trend). No new buys until the market is back in an uptrend.",
   "stats": {
     "picks_total": 27,
-    "closed": 16,
-    "open": 4,
+    "closed": 17,
+    "open": 3,
     "voided": 7,
-    "wins": 6,
-    "win_rate": 37.5,
-    "avg_pnl_pct": 2.42,
-    "total_r": 3.69,
-    "pnl_per_1k": 387.8,
-    "no_pick_days": 52
+    "wins": 7,
+    "win_rate": 41.2,
+    "avg_pnl_pct": 2.63,
+    "total_r": 5.01,
+    "pnl_per_1k": 447.4,
+    "no_pick_days": 53
   },
   "open": [
-    {
-      "ref_price": 193.82,
-      "zone_low": 192.73,
-      "zone_high": 194.91,
-      "stop": 185.09,
-      "target": 211.27,
-      "ticker": "EXPD",
-      "signal_type": "MACD_CROSS",
-      "strength": 5,
-      "sector": "Industrials",
-      "rsi": 49.9,
-      "vol_ratio": 1.11,
-      "ret_3m": 17.9,
-      "regime": "bull",
-      "issue_date": "2026-10-05",
-      "fill": 193.54,
-      "entry_date": "2026-10-06",
-      "bars_held": 20,
-      "last_eval": "2026-11-02",
-      "last_close": 201.34
-    },
     {
       "ref_price": 72.78,
       "zone_low": 72.26,
@@ -53,9 +32,9 @@
       "issue_date": "2026-10-21",
       "fill": 72.61,
       "entry_date": "2026-10-22",
-      "bars_held": 8,
-      "last_eval": "2026-11-02",
-      "last_close": 71.65
+      "bars_held": 9,
+      "last_eval": "2026-11-03",
+      "last_close": 73.48
     },
     {
       "ref_price": 425.9,
@@ -74,9 +53,9 @@
       "issue_date": "2026-10-28",
       "fill": 428.76,
       "entry_date": "2026-10-29",
-      "bars_held": 3,
-      "last_eval": "2026-11-02",
-      "last_close": 416.45
+      "bars_held": 4,
+      "last_eval": "2026-11-03",
+      "last_close": 424.2
     },
     {
       "ref_price": 237.32,
@@ -95,9 +74,9 @@
       "issue_date": "2026-10-29",
       "fill": 238.53,
       "entry_date": "2026-10-30",
-      "bars_held": 2,
-      "last_eval": "2026-11-02",
-      "last_close": 236.71
+      "bars_held": 3,
+      "last_eval": "2026-11-03",
+      "last_close": 238.62
     }
   ],
   "closed": [
@@ -404,6 +383,25 @@
       "pnl_pct": 8.76,
       "r_multiple": 2.184,
       "bars_held": 16
+    },
+    {
+      "ticker": "EXPD",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "issue_date": "2026-10-05",
+      "ref_price": 193.82,
+      "zone_low": 192.73,
+      "zone_high": 194.91,
+      "stop": 185.09,
+      "target": 211.27,
+      "fill": 193.54,
+      "entry_date": "2026-10-06",
+      "exit": 205.08,
+      "exit_date": "2026-11-03",
+      "exit_reason": "TIME_STOP",
+      "pnl_pct": 5.96,
+      "r_multiple": 1.322,
+      "bars_held": 20
     }
   ]
 }
