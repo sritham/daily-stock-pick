@@ -1,42 +1,20 @@
 {
-  "generated": "2026-11-16",
+  "generated": "2026-11-17",
   "pick": null,
-  "no_pick_reason": "Market regime is 'correction' (SPY below its trend). No new buys until the market is back in an uptrend.",
+  "no_pick_reason": "Market regime is 'bear' (SPY below its trend). No new buys until the market is back in an uptrend.",
   "stats": {
     "picks_total": 28,
-    "closed": 20,
-    "open": 1,
+    "closed": 21,
+    "open": 0,
     "voided": 7,
     "wins": 7,
-    "win_rate": 35.0,
-    "avg_pnl_pct": 1.32,
-    "total_r": 1.85,
-    "pnl_per_1k": 264.4,
-    "no_pick_days": 61
+    "win_rate": 33.3,
+    "avg_pnl_pct": 0.9,
+    "total_r": 0.85,
+    "pnl_per_1k": 188.9,
+    "no_pick_days": 62
   },
-  "open": [
-    {
-      "ref_price": 113.33,
-      "zone_low": 112.26,
-      "zone_high": 114.4,
-      "stop": 104.77,
-      "target": 130.44,
-      "ticker": "EL",
-      "signal_type": "MACD_CROSS",
-      "strength": 5,
-      "sector": "Consumer Staples",
-      "rsi": 61.3,
-      "vol_ratio": 1.49,
-      "ret_3m": 28.7,
-      "regime": "bull",
-      "issue_date": "2026-11-04",
-      "fill": 113.32,
-      "entry_date": "2026-11-05",
-      "bars_held": 8,
-      "last_eval": "2026-11-16",
-      "last_close": 108.6
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "ticker": "FFIV",
@@ -417,6 +395,25 @@
       "pnl_pct": -5.4,
       "r_multiple": -1.104,
       "bars_held": 4
+    },
+    {
+      "ticker": "EL",
+      "signal_type": "MACD_CROSS",
+      "strength": 5,
+      "issue_date": "2026-11-04",
+      "ref_price": 113.33,
+      "zone_low": 112.26,
+      "zone_high": 114.4,
+      "stop": 104.77,
+      "target": 130.44,
+      "fill": 113.32,
+      "entry_date": "2026-11-05",
+      "exit": 104.77,
+      "exit_date": "2026-11-17",
+      "exit_reason": "STOP_LOSS",
+      "pnl_pct": -7.55,
+      "r_multiple": -0.999,
+      "bars_held": 8
     }
   ]
 }
