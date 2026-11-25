@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24",
+  "generated": "2026-11-25",
   "pick": null,
   "no_pick_reason": "Market regime is 'bear' (SPY below its trend). No new buys until the market is back in an uptrend.",
   "stats": {
@@ -12,7 +12,7 @@
     "avg_pnl_pct": 0.9,
     "total_r": 0.85,
     "pnl_per_1k": 188.9,
-    "no_pick_days": 67
+    "no_pick_days": 68
   },
   "open": [],
   "closed": [
